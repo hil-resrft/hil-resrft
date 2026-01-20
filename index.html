@@ -51,7 +51,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- <h1 class="title is-1 publication-title">Real-world Reinforcement Learning from Suboptimal Interventions </h1> -->
-            <h1 class="title is-1 publication-title">HIL-ResRFT: Improving Imitation Learning Policy with Human in the Loop Residual Reinforcement Learning </h1>
+            <h1 class="title is-1 publication-title">Improving Imitation Learning Policy with Human in the Loop Residual Reinforcement Learning </h1>
             <div class="is-size-5 publication-authors">
               <!-- <span class="team-name"><b><sup>1</sup> Beijing Institute of Technology <p style="font-size: 70%"></p></b></span> -->
               <!-- <span class="team-name"><b><sup>2</sup> Beijing Innovation Center of Humanoid Robotics <p style="font-size: 70%"></p></b></span> -->
@@ -148,39 +148,40 @@
       <!-- / Hardware Setup. -->
 
       <!-- RoboMIND Data Analysis. -->
-      <section class="section" id="demo">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <h2 class="title is-3">Method</h2>
-              <div class="hero-body">
-                <div class="yush-div-center">
-                  <!-- <img src="./static/images/overview.png" class="img-responsive" style="width: 100%; height: auto;"> -->
-                </div>
-                <div class="content has-text-justified">
-                  <p>
-                    <!-- In this work, we propose <strong>SiLRI</strong>, a State-wise Lagrangian Reinforcement learning framework from suboptimal Interventions for real-world robot manipulation 
-                    training. Fig. 2 provides an overview of SiLRI. Unlike prior real-world RL methods that assume optimal human interventions, SiLRI defines <strong>a constrained 
-                    RL optimization problem</strong>, where the constraint bound at each state is determined by the corresponding human uncertainty. In states where humans provide consistent data (low entropy), 
-                    the learned policy is constrained to stay close to the human policy, improving training efficiency. In high-entropy states, the constraint is relaxed, encouraging the policy 
-                    to be optimized primarily through its own estimated critic, i.e., RL objective. To solve this constrained RL problem, we introduce <strong>learnable state-wise Lagrange multipliers</strong> and 
-                    cast the optimization as a min-max problem, allowing the agent to adaptively trade off between RL and IL objectives. -->
-                    
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       
       <!-- / RoboMIND Data Analysis. -->
   </section>
 
   <section class="section" id="demo">
     <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Method</h2>
+          <div class="hero-body">
+            <div class="yush-div-center">
+              <!-- <img src="./static/images/overview.png" class="img-responsive" style="width: 100%; height: auto;"> -->
+            </div>
+            <div class="content has-text-justified">
+              <p>
+                <!-- In this work, we propose <strong>SiLRI</strong>, a State-wise Lagrangian Reinforcement learning framework from suboptimal Interventions for real-world robot manipulation 
+                training. Fig. 2 provides an overview of SiLRI. Unlike prior real-world RL methods that assume optimal human interventions, SiLRI defines <strong>a constrained 
+                RL optimization problem</strong>, where the constraint bound at each state is determined by the corresponding human uncertainty. In states where humans provide consistent data (low entropy), 
+                the learned policy is constrained to stay close to the human policy, improving training efficiency. In high-entropy states, the constraint is relaxed, encouraging the policy 
+                to be optimized primarily through its own estimated critic, i.e., RL objective. To solve this constrained RL problem, we introduce <strong>learnable state-wise Lagrange multipliers</strong> and 
+                cast the optimization as a min-max problem, allowing the agent to adaptively trade off between RL and IL objectives. -->
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="demo">
+    <div class="container is-max-desktop">
       <!-- Experiment  -->
-      <div class="columns is-centered">
+      <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Experiments</h2>
           <!-- Experiment  -->
@@ -244,7 +245,7 @@
   <section class="section" id="demo">
     <div class="container is-max-desktop">
       <!-- Experiment  -->
-      <div class="columns is-centered">
+      <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Conclusion</h2>
           <!-- Experiment  -->
@@ -280,7 +281,7 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="columns is-centered">
+      <div class="columns is-centered has-text-centered">
         <div class="column is-8">
           <div class="content has-text-centered">
             <p>
